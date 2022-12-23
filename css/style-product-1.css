@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Abhaya Libre';
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* CATEGORY */
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding-top: 3px;
+}
+
+.hr1 {
+    width: 150px;
+    margin-top: 0;
+    margin-left: 45%;
+}
+
+hr {
+    border: 1px solid rgb(138, 137, 137, 0.5);
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#product-list {
+    height: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.frame-product {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frame-product div {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ffd092;
+}
+
+.frame-product p {
+    margin-top: 5px;
+}
+
+.tagname-product {
+    display: flex;
+    flex-direction: column;
+}
+
+.product_item {
+    width: 180px;
+    text-align: center;
+}
+
+.product_item img:hover {
+    border: 2px solid orange;
+}
+
+ul.product {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+ul.product li img {
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+}
+
+#space {
+    border: 1px solid white;
+    margin-bottom: -200px;
+}
+
+h2 {
+    margin: 20px;
+}
